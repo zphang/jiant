@@ -49,7 +49,7 @@ To install `jiant` from source (alternative for researchers):
 ```bash
 git clone https://github.com/nyu-mll/jiant.git
 cd jiant
-pip install . -e
+pip install -e .
 ```
 
 To install `jiant` from pip (recommended if you just want to train/use a model):
