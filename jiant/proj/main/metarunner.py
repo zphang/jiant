@@ -66,6 +66,7 @@ class JiantMetarunner(AbstractMetarunner):
         verbose: bool = True,
         save_best_model: bool = True,
         load_best_model: bool = True,
+        save_last_model: bool = True,
         log_writer: BaseZLogger = PRINT_LOGGER,
     ):
         self.runner = runner
@@ -78,6 +79,7 @@ class JiantMetarunner(AbstractMetarunner):
         self.verbose = verbose
         self.save_best_model = save_best_model
         self.load_best_model = load_best_model
+        self.save_last_model = save_last_model
         self.log_writer = log_writer
 
         self.best_val_state = None

@@ -162,6 +162,7 @@ def run_loop(args: RunConfiguration, checkpoint=None):
                 output_dir=args.output_dir,
                 verbose=True,
                 save_best_model=args.do_save,
+                save_last_model=args.do_save,
                 load_best_model=True,
                 log_writer=quick_init_out.log_writer,
             )
